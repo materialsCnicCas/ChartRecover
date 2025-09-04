@@ -1,0 +1,30 @@
+{
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_legend_patch_0.png": [
+        100.73206329345703,
+        22.93212890625,
+        133.4840545654297,
+        43.8824348449707,
+        0.8526816368103027
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_legend_patch_1.png": [
+        99.17488098144531,
+        46.19497299194336,
+        135.04412841796875,
+        69.94551086425781,
+        0.8416600823402405
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_legend_label_0.png": [
+        134.88926696777344,
+        48.728294372558594,
+        175.82960510253906,
+        67.00243377685547,
+        0.9374708533287048
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_legend_label_1.png": [
+        134.75408935546875,
+        23.962308883666992,
+        155.92636108398438,
+        42.023033142089844,
+        0.9180668592453003
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_patch_0.png": [
+        276.3604431152344,
+        61.02622604370117,
+        286.3687744140625,
+        70.83064270019531,
+        0.7355597019195557
+    ],
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_patch_1.png": [
+        276.60693359375,
+        39.63359451293945,
+        286.0097351074219,
+        49.041446685791016,
+        0.7158036231994629
+    ],
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_patch_2.png": [
+        276.462890625,
+        82.65786743164062,
+        286.01495361328125,
+        91.92325592041016,
+        0.6615878343582153
+    ],
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_label_0.png": [
+        285.8102722167969,
+        59.72858428955078,
+        389.0140075683594,
+        70.99876403808594,
+        0.8790072798728943
+    ],
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_label_1.png": [
+        285.8867492675781,
+        81.09259033203125,
+        397.8642578125,
+        92.00174713134766,
+        0.8591864109039307
+    ],
+    "test_result/co-dino/scatter/PMC2705787___g007/Element_result/cropped_legend_label_2.png": [
+        285.797607421875,
+        38.94388961791992,
+        313.0413818359375,
+        49.10635757446289,
+        0.8388040065765381
+    ]
+}

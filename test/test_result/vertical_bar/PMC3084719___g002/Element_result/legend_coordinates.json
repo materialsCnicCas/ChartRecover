@@ -1,0 +1,58 @@
+{
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_patch_0.png": [
+        405.79351806640625,
+        3.9313912391662598,
+        416.6570739746094,
+        14.900554656982422,
+        0.7879247665405273
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_patch_1.png": [
+        218.99627685546875,
+        4.054566860198975,
+        229.67156982421875,
+        14.766742706298828,
+        0.7856501340866089
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_patch_2.png": [
+        316.46142578125,
+        4.059023380279541,
+        327.13641357421875,
+        14.840682983398438,
+        0.7854433655738831
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_patch_3.png": [
+        106.11844635009766,
+        4.148027420043945,
+        116.37101745605469,
+        14.39571475982666,
+        0.7658672332763672
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_label_0.png": [
+        329.1087646484375,
+        3.08042311668396,
+        366.8014831542969,
+        19.77109146118164,
+        0.9261030554771423
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_label_1.png": [
+        418.1307373046875,
+        3.1492111682891846,
+        455.8027648925781,
+        19.737531661987305,
+        0.9253544211387634
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_label_2.png": [
+        118.41390228271484,
+        2.822057008743286,
+        179.81008911132812,
+        19.915590286254883,
+        0.9195085167884827
+    ],
+    "test_result/co-dino/vertical_bar/PMC3084719___g002/Element_result/cropped_legend_label_3.png": [
+        231.2020721435547,
+        3.007596015930176,
+        277.711181640625,
+        19.68137550354004,
+        0.9162731170654297
+    ]
+}

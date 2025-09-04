@@ -1,0 +1,93 @@
+{
+    "plot_area": [
+        373.849365234375,
+        0.888669490814209,
+        672.4353637695312,
+        211.7459716796875,
+        0.9114696383476257
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_0.png": [
+        147.33338928222656,
+        155.0266571044922,
+        358.7462463378906,
+        170.83297729492188,
+        0.920994222164154
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_1.png": [
+        53.199649810791016,
+        97.14282989501953,
+        349.9477233886719,
+        113.09593200683594,
+        0.9160910248756409
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_2.png": [
+        296.7378234863281,
+        183.1582489013672,
+        361.9013671875,
+        196.9530487060547,
+        0.9156113862991333
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_3.png": [
+        115.40457153320312,
+        40.120697021484375,
+        354.8997802734375,
+        55.815528869628906,
+        0.9087693095207214
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_4.png": [
+        114.4537353515625,
+        126.13153076171875,
+        356.89666748046875,
+        141.83670043945312,
+        0.9044681191444397
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_5.png": [
+        0.6812073588371277,
+        68.90259552001953,
+        349.9724426269531,
+        84.57686614990234,
+        0.9016632437705994
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_xlabels_6.png": [
+        69.27926635742188,
+        11.262770652770996,
+        350.90777587890625,
+        26.93189811706543,
+        0.8558419942855835
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_ylabels_0.png": [
+        508.1034240722656,
+        218.20700073242188,
+        536.9393920898438,
+        231.89356994628906,
+        0.8996120691299438
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_ylabels_1.png": [
+        582.0659790039062,
+        218.1804962158203,
+        610.8915405273438,
+        231.89439392089844,
+        0.8940516114234924
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_ylabels_2.png": [
+        433.5930480957031,
+        218.19253540039062,
+        462.8831787109375,
+        231.86050415039062,
+        0.8824758529663086
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_ylabels_3.png": [
+        635.3900146484375,
+        218.1949462890625,
+        670.931396484375,
+        231.9212188720703,
+        0.8752807974815369
+    ],
+    "test_result/co-dino/horizontal_bar/PMC5758515___2_HTML/Element_result/cropped_ylabels_4.png": [
+        373.1946716308594,
+        218.1416015625,
+        394.92474365234375,
+        231.85523986816406,
+        0.8529496788978577
+    ]
+}

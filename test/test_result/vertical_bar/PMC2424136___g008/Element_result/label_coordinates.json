@@ -1,0 +1,72 @@
+{
+    "plot_area": [
+        86.21483612060547,
+        13.750849723815918,
+        466.70147705078125,
+        318.3557434082031,
+        0.9596544504165649
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_xlabels_0.png": [
+        171.0226593017578,
+        322.91656494140625,
+        230.88381958007812,
+        341.3799133300781,
+        0.9001564383506775
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_xlabels_1.png": [
+        238.9697265625,
+        322.90667724609375,
+        307.9419860839844,
+        341.8559875488281,
+        0.8973857164382935
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_xlabels_2.png": [
+        316.9704895019531,
+        322.998779296875,
+        393.1148986816406,
+        344.8919677734375,
+        0.8898105621337891
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_xlabels_3.png": [
+        111.98902130126953,
+        324.0541076660156,
+        157.96920776367188,
+        341.98675537109375,
+        0.8868072032928467
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_xlabels_4.png": [
+        396.1478271484375,
+        322.9024353027344,
+        437.1773376464844,
+        341.2683410644531,
+        0.8363975286483765
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_ylabels_0.png": [
+        49.22769546508789,
+        106.00048065185547,
+        83.77268981933594,
+        123.96601867675781,
+        0.8951674699783325
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_ylabels_1.png": [
+        49.126373291015625,
+        3.9099278450012207,
+        83.80658721923828,
+        21.992523193359375,
+        0.8888193964958191
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_ylabels_2.png": [
+        59.65798568725586,
+        207.2383270263672,
+        83.80944061279297,
+        225.69883728027344,
+        0.8756170272827148
+    ],
+    "test_result/co-dino/vertical_bar/PMC2424136___g008/Element_result/cropped_ylabels_3.png": [
+        70.99085235595703,
+        309.0301818847656,
+        83.87471771240234,
+        326.92474365234375,
+        0.861457347869873
+    ]
+}

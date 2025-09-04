@@ -1,0 +1,122 @@
+[
+    {
+        "x": "PS LGHTREACTION",
+        "y": -0.3365912005282745
+    },
+    {
+        "x": "MAJOR CHO METABOLISM",
+        "y": -0.3769623767958368
+    },
+    {
+        "x": "CELL VESICLE TRANSPORT",
+        "y": 0.4035625104964229
+    },
+    {
+        "x": "CELL ORGANISATION",
+        "y": 0.28829313453603844
+    },
+    {
+        "x": "PROTEIN SYNTHESIS",
+        "y": 0.18834612609217816
+    },
+    {
+        "x": "TCA",
+        "y": 0.5741051943359705
+    },
+    {
+        "x": "MITOCHONDRIAL ELECTRON TRANSPORT",
+        "y": 0.37546293068139813
+    },
+    {
+        "x": "LIPID METABOLISM",
+        "y": 0.2040345861363806
+    },
+    {
+        "x": "GLUCONEOGENESIS",
+        "y": 0.24228313377218735
+    },
+    {
+        "x": "TETRAPYMOLA SYANSPON",
+        "y": 0.16800477162693883
+    },
+    {
+        "x": "DEVELOPMENT",
+        "y": 0.14418866180513423
+    },
+    {
+        "x": "MISCELLANEOUS",
+        "y": 0.18165025627706344
+    },
+    {
+        "x": "HORMONE METABOLISM",
+        "y": 0.18311941599422576
+    },
+    {
+        "x": "CELL WALL",
+        "y": 0.6756900399414862
+    },
+    {
+        "x": "PS PHOTORESPIRATION",
+        "y": 0.12673169164073328
+    },
+    {
+        "x": "NUCLEOTIDE METABOLISM",
+        "y": 0.10433528364341527
+    },
+    {
+        "x": "STRESS",
+        "y": 0.13095570804086343
+    },
+    {
+        "x": "PROTEIN TARGETING",
+        "y": 0.13076287432036837
+    },
+    {
+        "x": "SECONDARY METABOLISM",
+        "y": -0.21889880431430542
+    },
+    {
+        "x": "REDOX",
+        "y": 0.11130822177939237
+    },
+    {
+        "x": "GLYCOLYSIS",
+        "y": 0.09271996739621269
+    },
+    {
+        "x": "AMINO ACID METABOLISM",
+        "y": 0.5004981059466782
+    },
+    {
+        "x": "MINOR CHO METABOLISM",
+        "y": 0.09932337698249394
+    },
+    {
+        "x": "SIGNALLING",
+        "y": 0.048589054188394654
+    },
+    {
+        "x": "RNA PROCESSING AND REGULATION",
+        "y": 0.07682607488411786
+    },
+    {
+        "x": "TETRAPYTROLE SYNTHESIS",
+        "y": -0.07450570573393467
+    },
+    {
+        "x": "PS CALVIN CYCLE",
+        "y": -0.03626413426404218
+    },
+    {
+        "x": "PROTEIN ACTIVATION, DEGRADATION, AND FOODING",
+        "y": 0.05308285037783511
+    },
+    {
+        "x": "DNA",
+        "y": 0.11729273091501358
+    },
+    {
+        "x": "CELL CYCLE",
+        "y": 0.0741913748498817
+    }
+]
