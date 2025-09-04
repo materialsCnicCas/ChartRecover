@@ -43,7 +43,6 @@ def convert_to_scatter_format(det_data_sample, class_name_list):
 
     return results_labelled
 
-
 def create_result_folder(main_path, img_path):
     if os.path.exists(main_path):
         shutil.rmtree(main_path)
@@ -307,8 +306,11 @@ def TrOCR(img_path, result_main_folder):
 if __name__ == "__main__":
     time1 = time.time()
 
-    main_path = 'test_result/co-dino/horizontal_bar'
-    img_path = './test_data/horizontal_bar'
+    main_path = './test/test_result/horizontal_bar'
+    img_path = './test/test_data/horizontal_bar'
+
+    # main_path = './test/test_result/vertical_bar'
+    # img_path = './test/test_data/vertical_bar'
 
     create_result_folder(main_path, img_path)
 

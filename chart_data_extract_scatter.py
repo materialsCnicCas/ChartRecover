@@ -56,19 +56,12 @@ def create_result_folder(main_path, img_path):
         img_path = os.path.dirname(img_path)
     
     for img_name in img_files:
-        # result_folder = os.path.join(main_path, f"result_{os.path.splitext(img_name)[0]}")
         result_folder = os.path.join(main_path, os.path.splitext(img_name)[0])
         os.makedirs(result_folder, exist_ok=True)
 
 def Scatter_detection(img_path, result_main_folder):
-    config_file = './mmdetection/my_configs/co_detr/co_detr_scatter_v2.py'
-    checkpoint_file = './mmdetection/my_checkpoint/codino_v2/scatter/co_detr_scatterv2/epoch_16.pth'
-
-    # config_file = './mmdetection/my_configs/ddq/ddq-detr-4scale_swinl_8xb2-12e_coco_scatter.py'
-    # checkpoint_file = './mmdetection/work_dirs/ddq/ddq-detr-4scale_swinl_8xb2-12e_coco_scatter/epoch_12.pth'
-
-    # config_file = './mmdetection/my_configs/dino/dino-5scale_swin-l_8xb2-12e_coco_scatter.py'
-    # checkpoint_file = './mmdetection/work_dirs/dino/dino-5scale_swin-l_8xb2-12e_coco_scatter/epoch_12.pth'
+    config_file = './mmdetection/my_configs/codino/codino_scatter.py'
+    checkpoint_file = './mmdetection/my_checkpoint/codino/scatter/codino_scatter/checkpoint.pth'
 
     model = init_detector(config_file, checkpoint_file, device='cuda:0')
     visualizer = DetLocalVisualizer()
@@ -94,10 +87,9 @@ def Scatter_detection(img_path, result_main_folder):
             'Scatter_result',
             mmcv.imread(img_file, channel_order='rgb'),
             data_sample=result,
-            out_file=f'{result_folder_path}/Scatter_result/Scatter_result.jpg',  # 输出路径
+            out_file=f'{result_folder_path}/Scatter_result/Scatter_result.jpg',
             draw_gt=False,
             pred_score_thr=0.3
-            # pred_score_thr=0.1
         )
 
         results_labelled = convert_to_scatter_format(result, label_list)
@@ -106,14 +98,8 @@ def Scatter_detection(img_path, result_main_folder):
             json.dump(results_labelled, f)
 
 def Element_detection(img_path, result_main_folder):
-    config_file = './mmdetection/my_configs/co_detr/co_detr_element_v2.py'
-    checkpoint_file = './mmdetection/my_checkpoint/codino_v2/element/co_detr_elementv2/epoch_16.pth'
-
-    # config_file = './mmdetection/my_configs/ddq/ddq-detr-4scale_swinl_8xb2-12e_coco_element.py'
-    # checkpoint_file = './mmdetection/work_dirs/ddq/ddq-detr-4scale_swinl_8xb2-12e_coco_element/epoch_12.pth'
-
-    # config_file = './mmdetection/my_configs/dino/dino-5scale_swin-l_8xb2-12e_coco_element.py'
-    # checkpoint_file = './mmdetection/work_dirs/dino/dino-5scale_swin-l_8xb2-12e_coco_element/epoch_12.pth'
+    config_file = './mmdetection/my_configs/codino/codino_element.py'
+    checkpoint_file = './mmdetection/my_checkpoint/codino/element/codino_element/checkpoint.pth'
 
     model = init_detector(config_file, checkpoint_file, device='cuda:0')
     visualizer = DetLocalVisualizer()
@@ -147,7 +133,7 @@ def Element_detection(img_path, result_main_folder):
     for img_file in img_files:
         img_file = os.path.join(img_path, img_file)
         img_name = os.path.basename(img_file)
-        # result_folder_path = os.path.join(result_main_folder, 'result_' + os.path.splitext(img_name)[0])
+
         result_folder_path = os.path.join(result_main_folder, os.path.splitext(img_name)[0])
         shutil.copy(img_file, os.path.join(result_folder_path, 'origin_image.jpg'))
 
@@ -158,7 +144,7 @@ def Element_detection(img_path, result_main_folder):
             'Element_result',
             mmcv.imread(img_file, channel_order='rgb'),
             data_sample=result,
-            out_file=f'{result_folder_path}/Element_result/Element_detection_result.jpg',  # 输出路径
+            out_file=f'{result_folder_path}/Element_result/Element_detection_result.jpg',
             draw_gt=False,
             pred_score_thr=0.3
         )
@@ -283,7 +269,7 @@ def TrOCR(img_path, result_main_folder):
     for img_file in img_files:
         img_file = os.path.join(img_path, img_file)
         img_name = os.path.basename(img_file)
-        # result_folder_path = os.path.join(result_main_folder, 'result_' + os.path.splitext(img_name)[0])
+
         result_folder_path = os.path.join(result_main_folder, os.path.splitext(img_name)[0])
         print(result_folder_path)
         axis_label_images = []
@@ -326,19 +312,19 @@ def TrOCR(img_path, result_main_folder):
 if __name__ == "__main__":
     time1 = time.time()
 
-    main_path = 'test_result/co-dino/scatter_weight'
-    # main_path = 'result_test'
-    img_path = './test_data/scatter'
-    # create_result_folder(main_path, img_path)
-    # time2 = time.time()
-    # Scatter_detection(img_path, main_path)
-    # time3 = time.time()
-    # Element_detection(img_path, main_path)
-    # time4 = time.time()
+    main_path = './test/test_result/scatter'
+    img_path = './test/test_data/scatter'
+
+    create_result_folder(main_path, img_path)
+    time2 = time.time()
+    Scatter_detection(img_path, main_path)
+    time3 = time.time()
+    Element_detection(img_path, main_path)
+    time4 = time.time()
     TrOCR(img_path, main_path)
-    # time5 = time.time()
-    # print("Scatter detection Time cost:", time3 - time2)
-    # print("Element detection Time cost:", time4 - time3)
-    # print("TrOCR Time cost:", time5 - time4)    
-    # print("All Time cost:", time5 - time1)
+    time5 = time.time()
+    print("Scatter detection Time cost:", time3 - time2)
+    print("Element detection Time cost:", time4 - time3)
+    print("TrOCR Time cost:", time5 - time4)
+    print("All Time cost:", time5 - time1)
     
