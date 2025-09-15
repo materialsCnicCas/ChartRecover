@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 Train Co-DINO with 4 GPUs:
 ```shell
-cd mmdetection && sh tools/dist_train.sh my_configs/codino/codino_xxx.py 4 path_to_exp
+cd mmdetection && sh tools/dist_train.sh my_configs/codino/codino_xxx.py 4
 ```
 
 ## Test
